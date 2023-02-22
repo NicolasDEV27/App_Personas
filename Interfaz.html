@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BANCOLOMBIA APP PERSONAS</title>
+        <style type= "text/css">
+         h1.titulo 
+        {
+            text-align: center
+            
+        }
+    </style>
+    <body background="Bin/Imagen.png">
+        <h1 class="titulo" style="color:rgb(0, 0, 0)">APP PERSONAS BANCOLOMBIA</h1>
+        <p><h3>Bienvenido a Bancolombia</h3><p>
+        Recuerde que para realizar una transferencia debe hacerse en los siguientes horarios:<br><br>
+        8:00 - 12:00 y 14:00 - 18:00<br>
+        <hr>
+        
+        <p>1. Ingrese su nombre completo. <input type="text" id="cteDestino"></p>
+        <p>2. Ingrese su número de cuenta. <input type="number" id="ctaDestino"></p>
+        <p>3. Ingrese la cuenta destino. <input type="number" id="ctaFinal"></p>
+        <p>4. Seleccione el banco al cual desea hacer la transferencia. 
+            <select name="Banco" id="bancos">
+            <option value="Bancolombia">Bancolombia</option>
+            <option value="Davivienda">Davivienda</option>
+            <option value="AV Villas">AV Villas</option>
+            </select></p>
+            <p>5. Ingrese el monto a enviar. <input type="number" id="monto"></p>
+            <input type="button" value="Enviar dinero" id="boton"><hr>
+            <p><h3>Resumen de la transacción</h3><p></p>
+             <p id="cli"></p><p id="cue"></p><p id="cueF"></p><p id="bank"></p><p id="cant"></p>
+    <script src = "Boolean.js"></script>
+    <script type="module" src="Boolean.js"></script>
+    </body>
+</html>
